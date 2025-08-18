@@ -1,0 +1,68 @@
+/*h2 {
+    color: blue;
+}*/
+/* tag attribute 
+id 
+class
+*/
+/*
+#test {
+    color: red;
+}
+
+.x {
+    color: blue;
+}
+
+li {
+    color: red
+}
+    */
+
+/* p{
+    color: red;
+}
+
+.x{
+    color:blue;
+}
+
+#one{
+    color: brown
+}
+
+p span{
+    color: aqua;
+}
+div.x{
+    color: green
+} */
+
+/* *{
+    color: blue;
+} */
+
+/* #test > p{
+    color: red;
+}
+#test + p{
+    color: green;
+} */
+/* #test ~ p{
+    color: red;
+} */
+/* li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: green;
+} */
+/* pesudo class */
+/* li:nth-child(5){
+    color: red;
+} */
+ /* pesudo element */
+/* p::first-letter */
+p::first-line{
+    color: blue
+}
