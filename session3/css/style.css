@@ -1,0 +1,95 @@
+/* 
+colors
+green
+rgb(0,0,0)
+rgba(0,0,0,alpha) 0 => 1
+
+hex. #aabbcc.  => 0->f
+
+
+sizes
+px
+em
+rem
+%
+vh
+wh cm inch ....
+*/
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+#d1 { */
+/* text color */
+/* color: rgb(255, 0, 0); */
+/* text alignment */
+/* center left right start end */
+/* text-align: justify; */
+/* text-align-last: center; */
+/* capitalize uppercase lowercase none */
+/* text-transform: none; */
+/* text-indent: 50px; */
+/* letter-spacing: 2px;
+    line-height: 30px; */
+/* word-spacing: 40px; */
+/* white-space: pre-wrap; */
+/* text-shadow: 0px 0px 3px red;
+    direction: ltr; */
+/* overline line-through */
+/* text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 7px; */
+/* solid dotted dashed wavy double */
+/* text-decoration-style: dotted;
+    text-decoration: overline solid green 4px; */
+/* font-size: 2rem */
+/* font-size: 1.1rem;
+    line-height: 1.7;
+    letter-spacing: 1px; */
+/* 100 => 900 bold bolder lighter */
+/* font-weight: 400;
+    font-variant: small-caps;
+    font-style: italic;
+} */
+
+/* #my-div{
+    background-color: red; */
+/* height: 400px; */
+/* width: 50%;
+    line-height: 25px;
+    min-height: 100px;
+    max-height: 150px;
+    overflow: hidden;
+}
+#two{
+    width:100%;
+    background-color: green;
+    height: 500px;
+}
+#two img{
+    width: 100%;
+    height: 200px
+} */
+body {
+    height: 3000px;
+}
+
+.d2 {
+    width: 100%;
+    height: 15rem;
+    /* background-color: rgba(255,0,0,0.5); */
+    /* opacity: 0.5; */
+    /* background-color: gray;
+    background-image: url(../images/bg.png);
+    background-size: 10% 10%;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-image: url(../images/bg.png);
+    background-attachment: fixed;
+}
+
+.d2 h2 {
+    text-align: center;
+    color: white
+}
