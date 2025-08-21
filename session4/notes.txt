@@ -1,0 +1,4 @@
+colors
+text => alignment, transform, indent, spacing, decoration, style 
+width, height, overflow
+font size, variant, style,line-height, white-space

@@ -1,0 +1,93 @@
+/* #my-div {
+    height: 300px;
+    width: 300px; */
+/* border-color: rgb(122, 16, 16);
+    border-width: 1em;
+    border-style:groove;
+     */
+/* border: 3px solid black; */
+/* border-left: 3px solid black;
+     border-right: 3px solid red;
+     border-bottom: 3px solid green;
+     border-top: 3px solid brown;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 15px;
+    border-bottom-left-radius: 7.5px;
+    border-bottom-right-radius: 20px; */
+/* border: 3px solid red;
+    outline: 5px solid green;
+    outline-offset: 10px;
+    border-radius: 5px 50%;
+}
+
+#my-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 5%;
+} */
+
+/* div{
+    width: 30%;
+    background-color: red;
+    color: white; */
+/* margin */
+/* padding */
+/* top right bottom left */
+/* padding: 5%; */
+/* padding-top: 3% 5px 10px; */
+/* margin:5% auto; */
+/* margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+} */
+
+/* .card{
+    width: 25%;
+    /* height: 300px; */
+/* background-color: red;
+    margin: 1% 0;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid black;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+#services #text-wrap,
+#services #img-wrap {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#img-wrap{
+    text-align: end;
+}
+#img-wrap img {
+    width: 80%;
+}
+#services #text-wrap{
+    padding-right: 10%;
+}
+#services #text-wrap p,
+#services #text-wrap h3 {
+    line-height: 1.5;
+}
+
+#services #text-wrap p {
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgb(40, 41, 65);
+    margin: 2% 0;
+}
+
+#services #text-wrap h3 {
+    font-size: 2rem;
+}
