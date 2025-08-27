@@ -315,47 +315,85 @@ body {
 }
 
 /* .my-div { */
-    /* background-color: #37447E;
+/* background-color: #37447E;
     height: 20rem;
     transform: translate(5rem , 10rem); */
-    /* transition: all 3s;
+/* transition: all 3s;
     color: white;
     padding: 5%;
 }
 
 .x .my-div:hover { */
-    /* transform: translate(300%, 0); */
-    /* scale scaleX scaleY */
-    /* transform: scaleY(1.5); */
-    /* transform: skew(45deg); */
-    /* transform: rotateY(180deg);
+/* transform: translate(300%, 0); */
+/* scale scaleX scaleY */
+/* transform: scaleY(1.5); */
+/* transform: skew(45deg); */
+/* transform: rotateY(180deg);
 } */
 
-.card{
+.card {
     height: 15rem;
 }
-.front img, .back img{
+
+.front img,
+.back img {
     height: 100%;
     width: 100%;
 }
-.front, .back{
+
+.front,
+.back {
     top: 0;
-    transition: all 3s;
+    transition: all 1s;
 }
 
 
-.front{
+.front {
     transform: rotateX(0deg);
     backface-visibility: hidden;
 }
-.back{
+
+.back {
     transform: rotateX(180deg);
     backface-visibility: hidden;
 }
-.card:hover .front{
-        transform: rotateX(180deg);
+
+.card:hover .front {
+    transform: rotateX(180deg);
 
 }
-.card:hover .back{
+
+.card:hover .back {
     transform: rotateX(0deg);
+}
+
+
+.c {
+    height: 10rem;
+    background-color: #37447E;
+    animation-name: movement;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes movement {
+
+    /* from{ margin-left: 0;}
+    to{ margin-left: 100%;} */
+    0% {
+        margin: 0
+    }
+
+    25% {
+        margin: 5%
+    }
+
+    50% {
+        margin: 10%
+    }
+    100%{ 
+        margin: 15%;
+    }
 }
