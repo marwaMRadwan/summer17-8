@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.my-5 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* #my-div{
+    position: relative;
+    width:30%;
+    height: 10rem;
+    background-color: red;
+}
+#my-div img{
+    position: absolute;
+    width: 70px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    right: calc(100% - 35px);
+    top: calc(50% - 35px);
+} */
+/* p{
+    height: 20rem;
+    background-color: red;
+    margin: 1%;
+    width: 30%;
+} */
+
+/* .d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between{
+        justify-content: space-between;
+}
+ .card{
+    width: 30%;
+    box-shadow: 0 0 1rem gainsboro;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 3%;
+ }
+ .img-fluid{
+    max-width: 100%;
+ }
+ .card h3, .card p{
+    padding: 3% 2%;
+ }
+ .card p{
+    height: calc(75px + 3%);
+    line-height: 25px;
+    overflow: hidden;
+ }
+
+ .s-card{
+    width:25%; */
+/* background: gray; */
+/* }
+ .px-3{
+    padding-left: 3%;
+    padding-right: 3%;
+ }
+.relative{
+    position: relative;
+}
+.absolute{ */
+/* position: absolute;
+}
+.text-white{
+    color: white;
+}
+.text-y{
+    color: yellow;
+}
+.rating{
+    background-color: darkblue;
+    height: 2rem;
+    padding: 0.5rem 5%;
+    border-radius: 20px;
+    top: calc(100% - 1.25rem);
+    right: 5%;
+}
+.img-wrap{
+    margin-bottom: 1.25rem;
+}
+h3, p{
+    letter-spacing: 0.5px;
+    margin-top:1%;
+    margin-bottom: 1%;
+    line-height: 1.4;
+} */
+.d-flex {
+    display: flex;
+    /* wrap no-wrap wrap-reverse */
+    flex-wrap: wrap;
+    /* row column row-reverse column-reverse*/
+    flex-direction: row;
+    /* space-between space-around space-evenly flex-start start  flex-end end center*/
+    justify-content: space-evenly;
+    /* stretch center baseline flex-start flex-end start end*/
+    /* align-items: flex-start; */
+    /* height: 1000px;
+    align-content: space-evenly; */
+}
+
+.d-flex div {
+    background-color: red;
+    padding: 2%;
+    margin-bottom: 3%;
+    color: white;
+    border: 2px solid black;
+    flex-basis: 27%;
+}
+
+.d-flex div:nth-child(1) {
+    /* align-self: center; */
+}

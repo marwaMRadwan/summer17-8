@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ul{
+    list-style-position: inside;
+    font-size: larger;
+    color: white;
+    list-style-type: disc;
+    list-style-image: url(../../session1/images/photo.png);
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.bg-red{
+    background-color: red;
+}
+.w-30{
+    width: 30%;
+    padding: 1%;
+}
+
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
+    height: 30rem;
+}
+.d-flex div{
+    width: 30%;
+    margin-bottom: 1%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.h1{
+    height: 24%;
+}
+.h2{
+    height: 100%;
+}
+.h3{
+    height: 47%;
+} */
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .h-25 {
+    height: 25%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-100 {
+    height: 100%;
+}
+.w-30{
+    width: 30%;
+    padding: 1rem;
+}
+.full-img{
+    width: 100%;
+    height: 100%;
+}
+
+#my-div{
+    height: 30rem;
+    flex-direction: column;
+} */
+/* table{
+    width: 100%;
+}
+th,td{
+    padding: 2%;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr:hover{
+    background-color: aliceblue;
+}
+
+a:hover{
+    color: red;
+}
+a:active{
+    color: green
+}
+a:visited{
+
+}
+a{
+    color: black
+} */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.w-30{
+    width: 30%;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+.overlay{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    display: none;
+}
+
+.test{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    /* opacity: 0.5; */
+    display: none;
+    color: white;
+    padding: 40% ;
+}
+.w-30:hover .test{
+    display: block;
+}
+
