@@ -22,11 +22,18 @@ a {
     --mid-color: #505F98;
     --dark-color: #37447E;
 }
-.main-color{
+
+.main-color {
     color: var(--dark-color);
 }
-.sec-color{ color: var(--mid-color);}
-.bg-main{ background-color: var(--mid-color);}
+
+.sec-color {
+    color: var(--mid-color);
+}
+
+.bg-main {
+    background-color: var(--mid-color);
+}
 
 .rtl {
     direction: rtl;
@@ -216,7 +223,8 @@ a {
 .relative {
     position: relative;
 }
-.fixed{
+
+.fixed {
     position: fixed;
 }
 
@@ -224,7 +232,7 @@ a {
     text-align: center;
 }
 
-.text-end{
+.text-end {
     text-align: end;
 }
 
@@ -236,30 +244,118 @@ a {
     color: black;
 }
 
-.btn{
+.btn {
     padding: 2% 10%;
     border-radius: 5px;
     background-color: azure;
 }
 
-.btn-dark{
+.btn-dark {
     background-color: var(--dark-color);
     color: white;
 }
-.btn-border-dark{
+
+.btn-border-dark {
     background-color: transparent;
     border: 1px solid var(--dark-color);
     color: var(--dark-color);
 }
-header{
+
+header {
     background-image: url(../images/designer_1.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-header .content{
+
+header .content {
     padding: 15% 0
 }
-.rounded{
+
+.rounded {
     border-radius: 50%;
     aspect-ratio: 1/1;
+}
+
+.form-control {
+    border: 1px solid lightgray;
+    padding: 1%;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* .my-div {
+    background-color: var(--dark-color);
+    height: 5rem; */
+/* transition: all 2s; */
+/* transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+} */
+
+/* .my-div:hover {
+    height: 20rem;
+    background-color: red; */
+/* transition: height 3s, background-color 4s; */
+/* } */
+
+.my-input {
+    width: 5%;
+    transition: all 2s;
+    border: none;
+}
+
+.my-input:focus {
+    width: 100%;
+    background-color: black;
+    border: 1px solid lightblue
+}
+
+body {
+    perspective: 1000px;
+}
+
+/* .my-div { */
+    /* background-color: #37447E;
+    height: 20rem;
+    transform: translate(5rem , 10rem); */
+    /* transition: all 3s;
+    color: white;
+    padding: 5%;
+}
+
+.x .my-div:hover { */
+    /* transform: translate(300%, 0); */
+    /* scale scaleX scaleY */
+    /* transform: scaleY(1.5); */
+    /* transform: skew(45deg); */
+    /* transform: rotateY(180deg);
+} */
+
+.card{
+    height: 15rem;
+}
+.front img, .back img{
+    height: 100%;
+    width: 100%;
+}
+.front, .back{
+    top: 0;
+    transition: all 3s;
+}
+
+
+.front{
+    transform: rotateX(0deg);
+    backface-visibility: hidden;
+}
+.back{
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+}
+.card:hover .front{
+        transform: rotateX(180deg);
+
+}
+.card:hover .back{
+    transform: rotateX(0deg);
 }
