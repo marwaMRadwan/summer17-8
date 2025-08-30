@@ -1,0 +1,14 @@
+.nav-link.active {
+    color: red !important;
+    ;
+}
+.icon{
+    width: fit-content;
+}
+.text-gray{
+    color: darkgray;
+}
+.text-gray.active{
+    background-color: orange;
+    color: white;
+}
