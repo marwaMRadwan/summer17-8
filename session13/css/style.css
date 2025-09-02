@@ -1,0 +1,9 @@
+.owl-carousel .item {
+    background-color: red;
+    height: 10rem;
+    border-radius: 10px;
+    /* width: fit-content; */
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+}
