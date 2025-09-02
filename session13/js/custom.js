@@ -117,38 +117,39 @@
 // console.log(user)
 
 
-// const calc = (operation, ...nums ) => {
-//     switch(operation){
-//         case "+": add(nums); break;
-//         case "-": sub(nums); break;
-//         case "*": mul(nums); break;
-//         default: console.log("invalid operation")
-//     }
-// }
-// const add = (nums)=>{
-//     let result = 0
-//     nums.forEach(n => result+=n);
-//     return result
-// }
-// const mul = (nums)=>{
-//     let result = 0
-//     nums.forEach(n => result*=n);
-//     return result
-// }
-// const sub = (nums)=>{
-//     let result = 0
-//     nums.forEach(n => result-=n);
-//     return result
-// }
-
-
-const user = { 
-    name:"marwa",
-    age:40,
-    print: function(){
-        console.log(this)
+const calc = (operation, ...nums) => {
+    switch (operation) {
+        case "+": return add(nums); break;
+        case "-": return sub(nums); break;
+        case "*": return mul(nums); break;
+        default: console.log("invalid operation")
     }
 }
-user.email = "marwa@techsexperts.com"
-delete user.age
-user.print()
+const add = (nums) => {
+    let result = 0
+    nums.forEach(n => result += n);
+    console.log(result)
+    return result
+}
+const mul = (nums) => {
+    let result = 1
+    nums.forEach(n => result *= n);
+    return result
+}
+const sub = (nums) => {
+    let result = 0
+    nums.forEach(n => result -= n);
+    return result
+}
+console.log(calc("*", 1, 2, 3, 4))
+
+// const user = { 
+//     name:"marwa",
+//     age:40,
+//     print: function(){
+//         console.log(this)
+//     }
+// }
+// user.email = "marwa@techsexperts.com"
+// delete user.age
+// user.print()
