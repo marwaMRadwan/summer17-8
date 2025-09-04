@@ -1,0 +1,13 @@
+.x {
+    height: 1rem;
+    background-color: red;
+    transition: all 1s;
+}
+
+.x:hover {
+    height: 10rem;
+}
+
+.acc-content{
+    transition: all 3s;
+}
