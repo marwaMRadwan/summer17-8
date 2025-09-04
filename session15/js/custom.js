@@ -87,15 +87,27 @@ const users = [
     }
 ];
 
+const createMyEle = (parent, elTag, classses, txt) => {
+    const el = document.createElement(elTag)
+    parent.appendChild(el)
+    if (classses) el.className = classses
+    if (txt) el.innerText = txt
+    return el
+}
 users.forEach(u => {
-    const div = document.createElement("div")
-    div.classList = "bg-success p-5 col-md-4 col-12 border border-white text-center"
-    dataWrap.appendChild(div)
-    let el = document.createElement("img")
+    // const div = document.createElement("div")
+    // div.classList = "bg-success p-5 col-md-4 col-12 border border-white text-center"
+    // dataWrap.appendChild(div)
+    const div = createMyEle(dataWrap, "div", "bg-success p-5 col-md-4 col-12 border border-white text-center")
+    // let el = document.createElement("img")
+    // el.src = u.img
+    // el.className = "rounded-circle cir"
+    // div.appendChild(el)
+    let el = createMyEle(div, "img", "rounded-circle cir")
     el.src = u.img
-    el.className = "rounded-circle"
-    el.style.height = "5rem"
-    el.style.width = "5rem"
-    el.style.textAlign ="center"
-    div.appendChild(el)
+    el = createMyEle(div, "h3", "text-center text-white my-3", u.name)
+    // el = document.createElement("h3")
+    // el.innerText = u.name
+    // el.className = "text-center text-white my-3"
+    // div.appendChild(el)
 })
